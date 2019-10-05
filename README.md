@@ -110,7 +110,7 @@ curl -X DELETE \
 
 
 ## Diagram
-See the issue tab.
+See the issues tab.
 
 ## Some Considerations
 This Service is hosted by EC2 service provided by amazon and the data storage by Firebase realtime database so it could be easily escalated, since it only manage two data entities with one microservice is enough, for future exercises it could be splited by entity API, the time wasn't enough this time to explore this approach.
